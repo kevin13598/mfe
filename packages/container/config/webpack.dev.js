@@ -19,7 +19,7 @@ const devConfig = {
       },
       shared: packageJson.dependencies,
     }),
-  ]
+  ],
 };
 
 module.exports = merge(commonConfig, devConfig);
